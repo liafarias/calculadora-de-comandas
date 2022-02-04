@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculadora de Comandas</title>
+</head>
+<body>
+    <main>
+        <article class="calculadora">
+            <h1>Calculadora de Comandas</h1>
+            <div id="inputs">
+                <input id="totalConta" type="text" placeholder="Digite o valor total da conta"><sup>*</sup>
+            </div>
+            <div id="inputs">
+                <input id="cover" type="text" placeholder="Digite o valor total do cover"><sup>*</sup>
+            </div>
+            <p>Tem taxa de Serviço?</p>
+            <div id="inputs">
+                <select id="taxa">
+                    <option disabled selected value="x">Selecione a taxa</option>
+                    <option value="0">Sem Taxa de serviço</option>
+                    <option value="0">Taxa de serviço já inclusa no total</option>
+                    <option value="0.10">10% de Taxa de serviço</option>
+                    <option value="0.15">10% de Taxa de serviço + Gorjeta</option>
+                    <option value="0.5">Apenas gorjeta</option>
+                </select><sup>*</sup>
+            </div>
+            <div id="inputs">
+                <input id="dividirConta" type="text" placeholder="Digite o numero de pessoas para dividir a conta"><sup>*</sup>
+            </div>
+            <button type="button" id="calcular">Calcular</button>
+            </article>
+
+        <article id="resultado">
+            <section>
+                <h2>Total da Conta</h2>
+                <div id="exibirResultado">
+                    <sup>R$</sup><p id="valorPessoa">0.00</p><small id="cada">cada</small>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
