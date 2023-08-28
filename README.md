@@ -7,4 +7,4 @@
 ![preview](https://s10.gifyu.com/images/Calculadora-de-Comandas.gif)
 
 <br>
-<p>Para acessar nosso site: https://liafarias.github.io/calculadora-de-comandas/ </p>
+<p>Para acessar o site: https://liafarias.github.io/calculadora-de-comandas/ </p>
